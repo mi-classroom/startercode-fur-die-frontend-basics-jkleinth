@@ -1,0 +1,80 @@
+/*
+colors: 
+    Schrift dunkel: 706f6f
+    Schrift hell:   b1b1b0
+    Schrift Zitat: dfac4a
+
+*/
+
+body {
+    color: #444443;
+}
+
+h1 {
+   font-size: 3em;
+   text-decoration-line: underline;
+   text-underline-offset: 20px;
+}
+
+section.designprinciples {
+    color: #706f6f;
+    ;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: black;
+}
+
+cite {
+    color: #b1b1b0;
+    font-size: 0.8em;
+}
+
+blockquote.quote1 {
+    color: #dfac4a;
+    font-style: italic;
+}
+
+figcaption.source {
+    color: #b1b1b0;
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+figcaption.imagesource {
+    color: #b1b1b0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 1.5em 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.comment-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    text-align: center;
+    width: 40%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+/* .author {
+    border: none;
+} */
+
+
+
+
+

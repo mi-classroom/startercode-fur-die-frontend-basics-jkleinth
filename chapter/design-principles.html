@@ -6,15 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Css/style.css">
 </head>
-<style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-</style>
 
 <body>
     <header>
@@ -23,7 +16,7 @@
         </nav>
     </header>
     <article>
-        <section>
+        <section class="designprinciples">
             <h1>Design Principles</h1>
 
             <div>
@@ -38,30 +31,31 @@
             </div>
         </section>
         <section>
-            <h1>User Experience Design</h1>
+            <h2>User Experience Design</h2>
 
             <div>
                 <p>
                     The term "user experience" was first coined by Don Norman in the early 1990s when he was working at
-                    Apple (NORMAN, 2013, P. XIII F.). User experience comprises all aspects of a user's interaction with
+                    Apple <cite>(NORMAN, 2013, P. XIII F.)</cite>. User experience comprises all aspects of a user's
+                    interaction with
                     a
                     company, its services, and its products. The focus and most important goal of good user experience
                     is to
                     meet the user's needs in every aspects. Close cooperation is required between different disciplines,
-                    such as engineering, marketing, graphic design, industrial design, and interface design (NORMAN &
-                    NIELSEN, N.D.).
+                    such as engineering, marketing, graphic design, industrial design, and interface design
+                    <cite>(NORMAN & NIELSEN, N.D.).</cite>
                 </p>
             </div>
 
             <figure>
-                <blockquote>
+                <blockquote class="quote1">
                     <!-- die visuellen zeichen über css im nachhinein einfügen, damit z.B. von Screenreadern nicht mitgelesen wird-->
                     »Good design is actually a lot harder to notice than poor design, in part because good designs fit
                     our
                     needs so well that the design is invisible, serving us without drawing attention to itself. Bad
                     design,
                     on the other hand, screams out its inadequacies, making itself very noticeable.«
-                    <figcaption>Don Norman</figcaption>
+                    <figcaption class="source">Don Norman</figcaption>
                 </blockquote>
             </figure>
 
@@ -71,138 +65,133 @@
                 User experience captures everything a user experiences while using a given product, from the visuals,
                 the
                 haptics, and the audio to how the product feels. User experience of a product comprises three primary
-                factors: its look, feel, and usability (IXDF - UX DESIGN, N.D.) (→ FIG. 04).
+                factors: its look, feel, and usability
+                <cite>(IXDF - UX DESIGN, N.D.) (→ FIG. 04)</cite>.
             </p>
 
             <dl>
                 <dt>Look</dt>
                 <dd>
-                    <blockquote>
-                        The “look” satisfes the user’s visual expectations of the product. It is about creating a
-                        product
-                        that is visually appealing and conveys the essence of the product
-                        to the user. In addition to pure aesthetics, it is also important that the content is
-                        communicated simply and understandably. Therefore, it is not only important
-                        how the product looks like but also how information is presented
-                    </blockquote>
+                    The “look” satisfes the user’s visual expectations of the product. It is about creating a
+                    product
+                    that is visually appealing and conveys the essence of the product
+                    to the user. In addition to pure aesthetics, it is also important that the content is
+                    communicated simply and understandably. Therefore, it is not only important
+                    how the product looks like but also how information is presented
                 </dd>
                 <dt>Feel</dt>
                 <dd>
-                    <blockquote>
-                        The “feel” is about creating products that are not only functional but also fun to
-                        use. It is important that it is a pleasant and intuitive experience when interacting with the
-                        product on a daily basis.
-                    </blockquote>
+                    The “feel” is about creating products that are not only functional but also fun to
+                    use. It is important that it is a pleasant and intuitive experience when interacting with the
+                    product on a daily basis.
                 </dd>
                 <dt>Usability</dt>
                 <dd>
-                    <blockquote>
-                        Usability is the cornerstone of user experience because if a product is diffcult
-                        to use, the experience of using it will never be positive. Products should be designed to meet
-                        the
-                        needs of the user, and the product’s functions should be predictable for the user.
-                    </blockquote>
+                    Usability is the cornerstone of user experience because if a product is diffcult
+                    to use, the experience of using it will never be positive. Products should be designed to meet
+                    the
+                    needs of the user, and the product’s functions should be predictable for the user.
                 </dd>
             </dl>
 
 
             <figure>
                 <img src="..\_data\images\user-experience.png" alt="Bild nicht vorhanden">
-                <figcaption>
+                <figcaption class="imagesource">
                     FIG. 04: PRIMARY FACTORS OF USER EXPERIENCE
                     OWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020
                 </figcaption>
 
             </figure>
 
-            <div>
-                <blockquote>
-                    User Experience Design requires a solid understanding of the psychology and behavior of the user.
-                    Understanding how users perceive a product allows user experience designers to iterate their
-                    concepts
-                    and better achieve the user's goals. According to Marc Hassenzahl and Sarah Diefenbach's paper
-                    *Well-being*, *Need Fulfillment*, and *Experience Design*, any positive experience is based on
-                    meeting
-                    psychological needs. The fulfillment of psychological needs, such as competence, relatedness,
-                    popularity, stimulation and security, contributes to the well-being of the user and leads to a
-                    pleasant
-                    user experience. In experience design, these needs are taken as guidelines and inspiration in the
-                    design
-                    process (HASSENZAHL & DIEFENBACH, 2012, P. 1).</p>
-                </blockquote>
+            <p>
+                User Experience Design requires a solid understanding of the psychology and behavior of the user.
+                Understanding how users perceive a product allows user experience designers to iterate their
+                concepts
+                and better achieve the user's goals. According to Marc Hassenzahl and Sarah Diefenbach's paper
+                *Well-being*, *Need Fulfillment*, and *Experience Design*, any positive experience is based on
+                meeting
+                psychological needs. The fulfillment of psychological needs, such as competence, relatedness,
+                popularity, stimulation and security, contributes to the well-being of the user and leads to a
+                pleasant
+                user experience. In experience design, these needs are taken as guidelines and inspiration in the
+                design
+                process <cite>(HASSENZAHL & DIEFENBACH, 2012, P. 1)</cite>.</p>
+            </p>
 
-                <blockquote>
-                    Some of these needs have already been discussed in Chapter 2.1, but in the following, they are
-                    considered from the perspective of emotion, while additional needs are addressed.
-                </blockquote>
-                <dl>
-                    <dt>Competence</dt>
-                    <dd>
-                        <blockquote>
-                            Competence is the feeling that one's actions are perceived as capable and effective instead
-                            of
-                            thinking that one is incapable and incompetent (HASSENZAHL & DIEFENBACH, 2012, P. 1).
-                        </blockquote>
-                    </dd>
-                    <dt>Relatedness</dt>
-                    <dd>
-                        <blockquote>
-                            Relatedness is the feeling of having intimate and personal relationships with the people in
-                            the
-                            environment, rather than feeling lonely or unnoticed (HASSENZAHL & DIEFENBACH, 2012, P. 1).
-                        </blockquote>
-                    </dd>
-                    <dt>Popularity</dt>
-                    <dd>
-                        <blockquote>
-                            Popularity is the feeling of being respected and influencing others, rather than feeling
-                            like a
-                            person whose advice and opinion are ignored (HASSENZAHL & DIEFENBACH, 2012, P. 1).
-                        </blockquote>
-                    </dd>
-                    <dt>Stimulation</dt>
-                    <dd>
-                        <blockquote>
-                            Stimulation is the feeling of experiencing much of joy and pleasure instead of feeling bored
-                            and
-                            understimulated (HASSENZAHL & DIEFENBACH, 2012, P. 1).
-                        </blockquote>
-                    </dd>
-                    <dt>Security</dt>
-                    <dd>
-                        <blockquote>
-                            Security is the feeling of having stability and control over one's own life, rather than
-                            feeling
-                            uncertain and threatened by circumstances one cannot control (HASSENZAHL & DIEFENBACH, 2012,
-                            P.
-                            1).
-                        </blockquote>
-                    </dd>
-                </dl>
+            <p>
+                Some of these needs have already been discussed in Chapter 2.1, but in the following, they are
+                considered from the perspective of emotion, while additional needs are addressed.
+            </p>
+            <dl>
+                <dt>Competence</dt>
+                <dd>
+                    <p>
+                        Competence is the feeling that one's actions are perceived as capable and effective instead
+                        of
+                        thinking that one is incapable and incompetent <cite>(HASSENZAHL & DIEFENBACH, 2012, P.
+                            1)</cite>.
+                    </p>
+                </dd>
+                <dt>Relatedness</dt>
+                <dd>
+                    <p>
+                        Relatedness is the feeling of having intimate and personal relationships with the people in
+                        the
+                        environment, rather than feeling lonely or unnoticed <cite>(HASSENZAHL & DIEFENBACH, 2012, P.
+                            1)</cite>.
+                    </p>
+                </dd>
+                <dt>Popularity</dt>
+                <dd>
+                    <p>
+                        Popularity is the feeling of being respected and influencing others, rather than feeling
+                        like a
+                        person whose advice and opinion are ignored <cite>(HASSENZAHL & DIEFENBACH, 2012, P. 1)</cite>.
+                    </p>
+                </dd>
+                <dt>Stimulation</dt>
+                <dd>
+                    <p>
+                        Stimulation is the feeling of experiencing much of joy and pleasure instead of feeling bored
+                        and
+                        understimulated <cite>(HASSENZAHL & DIEFENBACH, 2012, P. 1)</cite>.
+                    </p>
+                </dd>
+                <dt>Security</dt>
+                <dd>
+                    <p>
+                        Security is the feeling of having stability and control over one's own life, rather than
+                        feeling
+                        uncertain and threatened by circumstances one cannot control <cite>(HASSENZAHL & DIEFENBACH,
+                            2012, P. 1)</cite>.
+                    </p>
+                </dd>
+            </dl>
 
 
-                <blockquote>
-                    As discussed in Chapter 2.1, the social aspect is an important factor in motivating people to
-                    participate in various activities. Thus, it is also an important factor for participation in sports.
-                    Since this thesis addresses the question of how online sports community apps should be designed to
-                    increase the user's participation in team sports, the focus during the design phase is laid
-                    especially
-                    on relatedness.
-                </blockquote>
+            <blockquote>
+                As discussed in Chapter 2.1, the social aspect is an important factor in motivating people to
+                participate in various activities. Thus, it is also an important factor for participation in sports.
+                Since this thesis addresses the question of how online sports community apps should be designed to
+                increase the user's participation in team sports, the focus during the design phase is laid
+                especially
+                on relatedness.
+            </blockquote>
 
-                <blockquote>
-                    In the context of user experience design, needs are also called “user needs”. In addition to the
-                    approach of Hassenzahl and Diefenbach, other approaches define user needs for good user experience.
-                    Design leader Stephen P. Anderson, for example, developed the “User Experience Hierarchy of Needs”
-                    model
-                    (→ FIG. 05). Rather than focusing on the psychological side of the user needs, this model is based
-                    on a
-                    product's maturity process. Anderson proposes that products proceed through six stages of maturity,
-                    during which they can grow from a purely functional product, to a product that is meaningful to the
-                    user
-                    (ANDERSON, 2011, P. 10F.).
-                </blockquote>
-            </div>
+            <blockquote>
+                In the context of user experience design, needs are also called “user needs”. In addition to the
+                approach of Hassenzahl and Diefenbach, other approaches define user needs for good user experience.
+                Design leader Stephen P. Anderson, for example, developed the “User Experience Hierarchy of Needs”
+                model
+                <cite>(→ FIG. 05)</cite>. Rather than focusing on the psychological side of the user needs, this model
+                is based
+                on a
+                product's maturity process. Anderson proposes that products proceed through six stages of maturity,
+                during which they can grow from a purely functional product, to a product that is meaningful to the
+                user
+                <cite>(ANDERSON, 2011, P. 10F.)</cite>.
+            </blockquote>
 
             <table>
                 <thead>
@@ -244,6 +233,53 @@
 
         </section>
     </article>
+
+    <h2>Comments</h2>
+    <p>Here you have the option to Comment on the last chapter.</p>
+    <form action="" method="get" class="comment-form">
+        <div class="name">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" />
+        </div>
+
+        <div class="email">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email"/>
+        </div>
+
+        <div class="image-upload">
+            <label for="upload">Image</label>
+            <input id="upload" name="upload" type="file" accept="image/*"/>
+        </div>
+
+        <div class="comment">
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+
+        <fieldset class="author">
+            <legend>Show Author of Comment</legend>
+            <label for="anonym">Anonym</label>
+            <input id="anonym" name="anonym" type="radio" value="anonym"/>
+            <label for="public">Show author</label>
+            <input id="public" name="public" type="radio" value="public"/>
+        </fieldset>
+
+        <div class="agb">
+            <label for="agb">Datenschutzerklärung gelesen</label>
+            <input id="agb" name="agb" type="checkbox"/>
+        </div>
+
+        <div class="send-button">
+            <label for="send"></label>
+            <input id="send" name="send" type="submit"/>
+        </div>
+
+        <div class="send-button">
+            <label for="reset"></label>
+            <input id="reset" name="send" type="reset"/>
+        </div>
+    </form>
 </body>
 
 </html>
